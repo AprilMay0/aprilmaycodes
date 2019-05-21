@@ -318,6 +318,16 @@ header.masthead p {
   }
 }
 
+@media (hover: none) {
+  .portfolio-box .portfolio-box-caption {
+    opacity: 1;
+  }
+
+  .portfolio-link {
+    text-decoration: underline;
+  }
+}
+
 .portfolio-link {
   color: white;
 }
